@@ -6,3 +6,6 @@ When I think of the MVC I think of the Controller as how we interact like the co
 
 Phase 1-
 Created the coffee pot model and set basic functionality through the fields and getter and the brew and pour methods, also added error checking for invalid values. The model is the data container for the MVC is holds the state information, it's important because its keeping the data seperate from the logic or the user presentation.
+
+Phase 2-
+We created the View and adding some methods for intaking input and outputing to user. Keeping the IO away from the data in the model allows for less errors and mutation.
