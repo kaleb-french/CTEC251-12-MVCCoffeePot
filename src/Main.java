@@ -8,13 +8,9 @@ public class Main {
 
         System.out.println("Coffee left: " + pot.getVolume());
         String output = "";
-        while(true){
-            output = view.getUserInput();
-            System.out.println(output);
 
-            if(output == ""){
-                break;
-            }
-        }
+        CoffeePotController controller = new CoffeePotController(pot, view);
+
+        controller.start();
     }
 }

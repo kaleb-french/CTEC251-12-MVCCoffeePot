@@ -6,7 +6,7 @@ public class CoffeePotView {
     //c
     //m
     public void showMenu(){
-        System.out.println("brew(Amount), pour(Amount), status, exit");
+        System.out.println("brew <Amount>, pour <Amount>, status, exit");
     }
     public String getUserInput(){
         return input.nextLine();
