@@ -15,3 +15,6 @@ The View captures the input and returns it to controller, the controller parses 
 
 Phase 4-
 Keeping the responsiblities seperate and not breaking that was the only "hard" part and that really wasnt that hard to be honest. I think it made it easy to add error handling because I was able to wrap the entiring parsing block in a try block to catch any bad input.
+
+Phase 5-
+Honestly add most of the error correction needed in step 3 because I ran into errors, really after all of the user input parsing was inside a try block was easy to handle. Looking back over the hints on part 4 probably would have made some of the logic inside private methods if I had to make it again.
