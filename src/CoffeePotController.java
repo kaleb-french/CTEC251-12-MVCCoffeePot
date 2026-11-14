@@ -17,13 +17,13 @@ public class CoffeePotController {
             try{
                 switch (parsed[0]) {
                     case "brew":
-                        System.out.println("BREW!");
                         amount = Integer.parseInt(parsed[1]);
                         model.brew(amount);
+                        view.displayMessage("Coffee Level: " + model.getVolume());
                         break;
                     case "pour":
-                        System.out.println("POUR!");
                         amount = Integer.parseInt(parsed[1]);
+                        view.displayMessage("Coffee Level: " + model.getVolume());
                         model.pour(amount);
                         break;
                     case "status":

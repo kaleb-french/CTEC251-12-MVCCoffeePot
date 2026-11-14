@@ -12,3 +12,6 @@ We created the View and adding some methods for intaking input and outputing to 
 
 Phase 3-
 The View captures the input and returns it to controller, the controller parses the command and calls the method on the model to brew by the amount entered, and the model runs its brew method to increase the volume by the amount.
+
+Phase 4-
+Keeping the responsiblities seperate and not breaking that was the only "hard" part and that really wasnt that hard to be honest. I think it made it easy to add error handling because I was able to wrap the entiring parsing block in a try block to catch any bad input.
